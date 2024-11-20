@@ -1,0 +1,7 @@
+import React from 'react';
+import { Navigate } from 'react-router-dom';
+
+export function Messages() {
+  // Redirect to home since we're using floating messages now
+  return <Navigate to="/home" replace />;
+}
